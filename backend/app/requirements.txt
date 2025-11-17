@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+google-cloud-storage
+google-cloud-pubsub
+google-cloud-firestore
+python-multipart
+requests
