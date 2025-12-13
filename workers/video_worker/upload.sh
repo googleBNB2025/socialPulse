@@ -1,0 +1,6 @@
+#!/bin/bash
+
+curl -X PUT \
+  -H "Content-Type: video/mp4" \
+  --data-binary @sample.mp4 \
+  "https://storage.googleapis.com/socialpulseai-assets-1/dcff905c-2ca2-4319-8e5e-eefdb736db10-test.mp4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=signer-sa%40socialpulseai-478505.iam.gserviceaccount.com%2F20251206%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20251206T201233Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=content-type%3Bhost&X-Goog-Signature=638e51cc89aee650ecd8c3aa28adb88571c97ed8ab8a7b7e5f54aabb1c83801832e14d4248a62af9ea57a2097844aae0455fc78afd828b98df6d62371d6c6cb4d15e4c7a123460b1b3f079e91c6ba5f38e001b905971110664c441a9a2e4958d9d54dc6917246670229dbea3bbc29f97960ba566b94778386b39d81644e2592d25ac0e66aa57485687ce6088351f59cbe2b0c2f1bccaed26f74b06dfbe51047493e1ff34160e8e74e161eead96af090c1d5981fbbec053257baf1b38682562266660f58443a99e4424919dbb462f199fd41ada5048deccf05cf630653db045e6cc6914c9e35bd44146e7c603eaca8354a33e74c8051556abc4e144e430dddb9a"

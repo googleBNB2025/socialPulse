@@ -1,0 +1,7 @@
+google-cloud-storage
+google-cloud-speech
+google-cloud-firestore
+google-cloud-videointelligence
+google-cloud-language
+functions-framework
+ffmpeg
