@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Global calming theme variables ---- */
+:root {
+  --bg-start: #fff7ed; /* warm peach */
+  --bg-end: #fdf2f8;   /* soft pink */
+  --text-main: #1f2937;
+}
+
+/* Plain CSS only — NO @apply */
+html, body {
+  min-height: 100%;
+  background: linear-gradient(to bottom right, var(--bg-start), var(--bg-end));
+  color: var(--text-main);
+}

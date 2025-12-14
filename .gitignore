@@ -1,0 +1,11 @@
+# Secrets
+*.json
+signer-sa-key.json
+backend/signer-sa-key.json
+
+# Python
+__pycache__/
+.env
+
+# OS
+.DS_Store
